@@ -56,9 +56,7 @@ html,body {
   font-weight: 400;
 }
 .efside {
-  font-weight: 300 !important; 
-  color:#dbdbdb;
-  font-family: 'roboto';
+ display:none;
 }
 .sub {
  font-weight: 300; 
