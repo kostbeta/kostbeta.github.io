@@ -44,23 +44,29 @@ html,body {
 .hidbtn {
   display: block;
   text-align: center;
-  background-color:#37474e;
+  background-color:#263238;
   text-decoration:none;
   color:white;
   border-top: solid 4px #2979FF;
-  line-height:30px;;
-  font-size:25px;
+
+  font-size:20px;
   position: relative;
   z-index: +1;
   font-family: roboto;
   font-weight: 400;
 }
 .efside {
- display:none;
+display: none;
 }
 .sub {
  font-weight: 300; 
-  font-size:20px;
+  font-size:18px;
+}
+.super {
+  background-color: #37474e;
+}
+.arrow, .btn {
+  vertical-align: middle;
 }
 .cont {
 
@@ -77,9 +83,12 @@ html,body {
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
 
 }
-.btn {
-  display:none;
+.find {
+  border-bottom: solid 4px  #2979FF;
 }
 .active {
   background-color: #2979FF;
+}
+.btn {
+  display: none; 
 }
