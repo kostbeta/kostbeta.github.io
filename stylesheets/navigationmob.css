@@ -1,0 +1,85 @@
+body {
+  background-color: #263238;
+  padding:0;
+  margin:0;
+  
+  font-family:'roboto', sans-serif;
+  height: 100%;
+  position:relative;
+  overflow-x: hidden;
+}
+html,body {
+  height:100%; 
+}
+.navmob {
+  position:fixed;
+  width:100%;
+  left:0;
+  z-index: +1000; 
+  line-height: 50px;
+  top:0;
+  background-color:#2f3f47;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.navmob::after {
+  content: 'KostGames';
+  vertical-align: middle;
+  font-size:35px;
+  font-family: 'noto sans';
+  color:white;
+  top: -3px;
+  position: relative;
+  left:35px;
+}
+.btntrig {
+  text-decoration:none;
+  float:left;
+  font-family: roboto;
+  color: #2979FF;
+  position: relative;
+  left:10px;
+  font-size:35px;
+  background-color: #2f3f47;
+}
+.hidbtn {
+  display: block;
+  text-align: center;
+  background-color:#37474e;
+  text-decoration:none;
+  color:white;
+  border-top: solid 4px #2979FF;
+  line-height:30px;;
+  font-size:25px;
+  position: relative;
+  z-index: +1;
+  font-family: roboto;
+  font-weight: 400;
+}
+.efside {
+  font-weight: 300 !important; 
+  color:#dbdbdb;
+  font-family: 'roboto';
+}
+.sub {
+ font-weight: 300; 
+  font-size:20px;
+}
+.cont {
+
+  position:fixed;
+  height:calc(100% - 52px);
+  top:52px;
+  width:100%;
+  z-index: +11;
+  display: none;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.addedcont {
+  display: block; 
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+
+}
+
+.active {
+  background-color: #2979FF;
+}
